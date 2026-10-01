@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Curso Técnico em Desenvolvimento de Sistemas - CEEP de Laranjeiras do Sul">
+  <meta name="theme-color" content="#07080d">
+  <title>CEEP DS | Desenvolvimento de Sistemas</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =====================================================
+       INTRO
+  ====================================================== -->
+
+  <div class="starwars-intro" id="starWarsIntro">
+
+    <div class="space"></div>
+    <div class="stars stars-1"></div>
+    <div class="stars stars-2"></div>
+    <div class="stars stars-3"></div>
+
+    <div class="intro-content">
+
+      <div class="intro-small-title">
+        CEEP • LARANJEIRAS DO SUL
+      </div>
+
+      <div class="starwars-title">
+        <span>DESENVOLVIMENTO</span>
+        <span>DE SISTEMAS</span>
+      </div>
+
+      <div class="intro-line"></div>
+
+      <p class="intro-subtitle">
+        UMA JORNADA PELO MUNDO<br>
+        DA TECNOLOGIA
+      </p>
+
+    </div>
+
+    <button class="skip-intro" id="skipIntro">
+      PULAR INTRO <span>→</span>
+    </button>
+
+  </div>
+
+
+  <!-- =====================================================
+       BEM-VINDO
+  ====================================================== -->
+
+  <div class="welcome-screen" id="welcomeScreen" aria-hidden="true">
+
+    <div class="space"></div>
+    <div class="stars stars-1"></div>
+    <div class="stars stars-2"></div>
+    <div class="stars stars-3"></div>
+
+    <div class="welcome-content">
+
+      <div class="welcome-title">
+        <span>BEM-VINDO</span>
+        <span>A ESSA JORNADA</span>
+        <span>FUTURO DEV</span>
+      </div>
+
+      <div class="intro-line"></div>
+
+      <p class="welcome-hint">
+        CLIQUE PARA CONTINUAR
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       SITE
+  ====================================================== -->
+
+  <div class="site" id="site">
+
+    <div class="cursor-glow"></div>
+
+
+    <!-- =================================================
+         HEADER
+    ================================================== -->
+
+    <header class="header" id="header">
+
+      <a class="brand" href="#inicio" aria-label="CEEP Desenvolvimento de Sistemas">
+
+        <span class="brand-mark">
+          <img src="unnamed.jpg" alt="Desenvolvimento de Sistemas">
+        </span>
+
+        <span>
+          <strong>CEEP</strong>
+          <small>DESENVOLVIMENTO DE SISTEMAS</small>
+        </span>
+
+      </a>
+
+
+      <nav class="nav" id="nav">
+
+        <a href="#inicio">Início</a>
+        <a href="#curso">O curso</a>
+        <a href="#aprendemos">Aprendizado</a>
+        <a href="#jornada">Jornada</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#turma">Nossa turma</a>
+        <a href="#contato">Contato</a>
+
+      </nav>
+
+
+      <button
+        class="menu-btn"
+        id="menuBtn"
+        aria-label="Abrir menu"
+        aria-expanded="false">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </button>
+
+    </header>
+
+
+    <!-- =================================================
+         MAIN
+    ================================================== -->
+
+    <main>
+
+
+      <!-- =================================================
+           HERO
+      ================================================== -->
+
+      <section class="hero" id="inicio">
+
+        <div class="hero-grid"></div>
+
+        <div class="hero-content reveal">
+
+          <div class="eyebrow">
+            <span></span>
+            CEEP • LARANJEIRAS DO SUL
+          </div>
+
+          <h1>
+            Ideias que<br>
+            <span>viram código.</span>
+          </h1>
+
+          <p>
+            Conheça o Curso Técnico em Desenvolvimento de Sistemas:
+            tecnologia, criatividade e projetos desenvolvidos
+            pelos nossos estudantes.
+          </p>
+
+          <div class="hero-actions">
+
+            <a class="btn btn-primary" href="#curso">
+              Conheça o curso <span>↗</span>
+            </a>
+
+            <a class="btn btn-ghost" href="#projetos">
+              Ver projetos
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- JANELA DE CÓDIGO -->
+
+        <div class="code-window reveal delay-1">
+
+          <div class="window-top">
+
+            <div class="dots">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+
+            <span>student_project.js</span>
+
+            <span class="window-status">
+              ● online
+            </span>
+
+          </div>
+
+
+          <pre><code><span class="pink">const</span> <span class="blue">curso</span> = {
+  nome: <span class="green">"Desenvolvimento de Sistemas"</span>,
+  local: <span class="green">"CEEP Laranjeiras"</span>,
+  foco: [
+    <span class="green">"Programação"</span>,
+    <span class="green">"Web"</span>,
+    <span class="green">"Banco de Dados"</span>
+  ],
+  <span class="purple">projetos</span>: <span class="orange">true</span>
+};
+
+<span class="blue">console</span>.log(<span class="green">"Vamos criar?"</span>);<span class="cursor">|</span></code></pre>
+
+        </div>
+
+
+        <div class="scroll-hint">
+          SCROLL <span>↓</span>
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           STATS
+      ================================================== -->
+
+      <section class="stats">
+
+        <div class="stat reveal">
+          <strong>01</strong>
+          <span>Formação<br>técnica</span>
+        </div>
+
+        <div class="stat reveal">
+          <strong>∞</strong>
+          <span>Possibilidades<br>na tecnologia</span>
+        </div>
+
+        <div class="stat reveal">
+          <strong>100%</strong>
+          <span>Foco em<br>aprendizado</span>
+        </div>
+
+        <div class="stat reveal">
+          <strong>+</strong>
+          <span>Projetos<br>desenvolvidos</span>
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           CURSO
+      ================================================== -->
+
+      <section class="section" id="curso">
+
+        <div class="section-label reveal">
+          01 / O CURSO
+        </div>
+
+        <div class="two-col">
+
+          <div class="reveal">
+
+            <h2>
+              Aprender tecnologia é<br>
+              <em>construir soluções.</em>
+            </h2>
+
+          </div>
+
+
+          <div class="section-copy reveal">
+
+            <p>
+              O Curso Técnico em Desenvolvimento de Sistemas
+              prepara estudantes para compreender, criar e
+              desenvolver soluções digitais.
+            </p>
+
+            <p>
+              Ao longo da formação, os alunos entram em contato
+              com programação, desenvolvimento web, banco de dados,
+              lógica e diferentes etapas de criação de sistemas.
+            </p>
+
+            <a class="text-link" href="#aprendemos">
+              Descubra o que aprendemos <span>→</span>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+          <article class="feature-card reveal">
+
+            <span class="feature-number">01</span>
+
+            <div class="feature-icon">⌘</div>
+
+            <h3>Programação</h3>
+
+            <p>
+              Transformamos problemas em lógica,
+              algoritmos e código.
+            </p>
+
+          </article>
+
+
+          <article class="feature-card reveal">
+
+            <span class="feature-number">02</span>
+
+            <div class="feature-icon">⌁</div>
+
+            <h3>Desenvolvimento Web</h3>
+
+            <p>
+              Criamos interfaces e aplicações para a web.
+            </p>
+
+          </article>
+
+
+          <article class="feature-card reveal">
+
+            <span class="feature-number">03</span>
+
+            <div class="feature-icon">◈</div>
+
+            <h3>Banco de Dados</h3>
+
+            <p>
+              Organizamos, armazenamos e trabalhamos
+              com informações.
+            </p>
+
+          </article>
+
+
+          <article class="feature-card reveal">
+
+            <span class="feature-number">04</span>
+
+            <div class="feature-icon">◉</div>
+
+            <h3>Projetos</h3>
+
+            <p>
+              Colocamos o conhecimento em prática criando
+              soluções reais.
+            </p>
+
+          </article>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           APRENDIZADO
+      ================================================== -->
+
+      <section class="section dark-section" id="aprendemos">
+
+        <div class="section-label reveal">
+          02 / APRENDIZADO
+        </div>
+
+        <div class="section-heading reveal">
+
+          <div>
+
+            <h2>
+              O que acontece<br>
+              <em>por trás da tela?</em>
+            </h2>
+
+          </div>
+
+          <p>
+            Algumas das áreas e tecnologias que fazem parte
+            da jornada dos estudantes.
+          </p>
+
+        </div>
+
+
+        <div class="learning-list">
+
+          <div class="learning-item reveal">
+
+            <span>01</span>
+
+            <div>
+              <h3>Lógica de programação</h3>
+            </div>
+
+            <p>
+              Algoritmos, estruturas e resolução de problemas.
+            </p>
+
+            <b>→</b>
+
+          </div>
+
+
+          <div class="learning-item reveal">
+
+            <span>02</span>
+
+            <div>
+              <h3>HTML + CSS + JavaScript</h3>
+            </div>
+
+            <p>
+              Estrutura, estilo e interatividade para a web.
+            </p>
+
+            <b>→</b>
+
+          </div>
+
+
+          <div class="learning-item reveal">
+
+            <span>03</span>
+
+            <div>
+              <h3>Banco de dados</h3>
+            </div>
+
+            <p>
+              Modelagem, consultas e organização de informações.
+            </p>
+
+            <b>→</b>
+
+          </div>
+
+
+          <div class="learning-item reveal">
+
+            <span>04</span>
+
+            <div>
+              <h3>Desenvolvimento de sistemas</h3>
+            </div>
+
+            <p>
+              Planejamento, construção, testes e evolução de aplicações.
+            </p>
+
+            <b>→</b>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           JORNADA
+      ================================================== -->
+
+      <section class="section journey-section" id="jornada">
+
+        <div class="section-label reveal">
+          03 / NOSSA JORNADA
+        </div>
+
+        <div class="section-heading reveal">
+
+          <div>
+
+            <h2>
+              Do primeiro código<br>
+              <em>ao projeto real.</em>
+            </h2>
+
+          </div>
+
+          <p>
+            Uma formação construída passo a passo,
+            transformando conhecimento em prática.
+          </p>
+
+        </div>
+
+
+        <div class="timeline">
+
+          <div class="timeline-line"></div>
+
+
+          <article class="timeline-item reveal">
+
+            <div class="timeline-number">01</div>
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+              <span>FUNDAMENTOS</span>
+
+              <h3>Lógica de programação</h3>
+
+              <p>
+                Começamos entendendo como pensar,
+                organizar problemas e construir algoritmos.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="timeline-item reveal">
+
+            <div class="timeline-number">02</div>
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+              <span>WEB</span>
+
+              <h3>HTML, CSS e JavaScript</h3>
+
+              <p>
+                A partir dos fundamentos, começamos a criar
+                páginas e aplicações interativas.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="timeline-item reveal">
+
+            <div class="timeline-number">03</div>
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+              <span>DADOS</span>
+
+              <h3>Banco de dados</h3>
+
+              <p>
+                Aprendemos a organizar informações e trabalhar
+                com dados dentro dos sistemas.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="timeline-item reveal">
+
+            <div class="timeline-number">04</div>
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+              <span>PRÁTICA</span>
+
+              <h3>Projetos reais</h3>
+
+              <p>
+                O conhecimento sai da teoria e passa a fazer
+                parte de projetos desenvolvidos pelos estudantes.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="timeline-item reveal">
+
+            <div class="timeline-number">05</div>
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+              <span>FUTURO</span>
+
+              <h3>Novos desafios</h3>
+
+              <p>
+                Cada projeto representa mais experiência,
+                criatividade e preparação para os próximos passos.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           TECNOLOGIAS
+      ================================================== -->
+
+      <section class="section tech-section">
+
+        <div class="section-label reveal">
+          04 / TECNOLOGIAS
+        </div>
+
+        <div class="tech-header reveal">
+
+          <div>
+
+            <h2>
+              Ferramentas para<br>
+              <em>criar o futuro.</em>
+            </h2>
+
+          </div>
+
+          <p>
+            Tecnologias e conceitos que fazem parte dos
+            projetos e experiências da formação.
+          </p>
+
+        </div>
+
+
+        <div class="tech-grid">
+
+          <div class="tech-card reveal">
+            <span class="tech-number">01</span>
+            <strong>HTML</strong>
+            <small>Estrutura</small>
+          </div>
+
+          <div class="tech-card reveal">
+            <span class="tech-number">02</span>
+            <strong>CSS</strong>
+            <small>Design & estilo</small>
+          </div>
+
+          <div class="tech-card reveal">
+            <span class="tech-number">03</span>
+            <strong>JavaScript</strong>
+            <small>Interatividade</small>
+          </div>
+
+          <div class="tech-card reveal">
+            <span class="tech-number">04</span>
+            <strong>SQL</strong>
+            <small>Dados</small>
+          </div>
+
+          <div class="tech-card reveal">
+            <span class="tech-number">05</span>
+            <strong>Git</strong>
+            <small>Versionamento</small>
+          </div>
+
+          <div class="tech-card reveal">
+            <span class="tech-number">06</span>
+            <strong>APIs</strong>
+            <small>Integrações</small>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           PROJETOS
+      ================================================== -->
+
+      <section class="section projects-section" id="projetos">
+
+        <div class="section-label reveal">
+          05 / PROJETOS
+        </div>
+
+        <div class="section-heading reveal">
+
+          <div>
+
+            <h2>
+              Não basta aprender.<br>
+              <em>É preciso criar.</em>
+            </h2>
+
+          </div>
+
+          <p>
+            Projetos desenvolvidos pelos estudantes durante
+            a jornada de aprendizagem.
+          </p>
+
+        </div>
+
+
+        <!-- PROJETO DESTAQUE -->
+
+        <article class="featured-project reveal">
+
+          <div class="featured-visual">
+
+            <div class="project-placeholder">
+
+              <span>NEXUS SCHOOL</span>
+
+              <small>
+                Adicione aqui uma captura do projeto
+              </small>
+
+              <div class="placeholder-grid"></div>
+
+            </div>
+
+            <span class="featured-label">
+              PROJETO EM DESTAQUE
+            </span>
+
+          </div>
+
+
+          <div class="featured-info">
+
+            <span class="project-index">
+              01 / PROJETO
+            </span>
+
+            <h3>Nexus School</h3>
+
+            <p>
+              Sistema desenvolvido pelos estudantes para
+              organização e gerenciamento de informações.
+            </p>
+
+
+            <div class="project-details">
+
+              <div>
+
+                <small>TECNOLOGIAS</small>
+
+                <div class="tags">
+
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <a
+              class="project-link"
+              href="#"
+              data-toast="Adicione aqui o link real do Nexus School.">
+
+              Abrir projeto <span>↗</span>
+
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- OUTROS PROJETOS -->
+
+        <div class="projects-grid">
+
+
+          <article class="project-card reveal">
+
+            <div class="project-visual chat">
+
+              <span class="visual-tag">
+                PROJETO 02
+              </span>
+
+              <div class="chat-bubble one">
+                Olá! 👋
+              </div>
+
+              <div class="chat-bubble two">
+                Projeto em andamento...
+              </div>
+
+              <div class="chat-bubble three">
+                ✓ online
+              </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <div>
+
+                <span>02</span>
+
+                <h3>Chat Online</h3>
+
+              </div>
+
+              <p>
+                Aplicação desenvolvida para comunicação
+                e interação entre usuários.
+              </p>
+
+              <div class="tags">
+                <span>JS</span>
+                <span>Firebase</span>
+              </div>
+
+              <a
+                href="#"
+                class="mini-project-link"
+                data-toast="Adicione aqui o link real do Chat Online.">
+
+                Ver projeto →
+
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <article class="project-card reveal">
+
+            <div class="project-visual database">
+
+              <span class="visual-tag">
+                PROJETO 03
+              </span>
+
+              <div class="db-ring">
+                <span>DATABASE</span>
+              </div>
+
+              <div class="db-lines"></div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <div>
+
+                <span>03</span>
+
+                <h3>Sistemas & Dados</h3>
+
+              </div>
+
+              <p>
+                Projetos envolvendo informações, cadastros,
+                consultas e organização de dados.
+              </p>
+
+              <div class="tags">
+                <span>SQL</span>
+                <span>Modelagem</span>
+              </div>
+
+              <a
+                href="#"
+                class="mini-project-link"
+                data-toast="Adicione aqui o link real do projeto.">
+
+                Ver projeto →
+
+              </a>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           TURMA
+      ================================================== -->
+
+      <section class="section gallery-section" id="turma">
+
+        <div class="section-label reveal">
+          06 / NOSSA TURMA
+        </div>
+
+        <div class="gallery-title reveal">
+
+          <h2>
+            Por trás do código,<br>
+            <em>existem pessoas.</em>
+          </h2>
+
+          <p>
+            Este espaço será preenchido com fotos reais da turma,
+            aulas práticas, eventos e momentos do curso.
+          </p>
+
+        </div>
+
+
+        <div class="gallery">
+
+
+          <div class="photo photo-main reveal">
+
+            <div class="photo-placeholder">
+
+              <span>FOTO DA TURMA</span>
+
+              <small>
+                Adicione a foto real aqui
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="photo photo-small reveal">
+
+            <div class="photo-placeholder">
+
+              <span>LABORATÓRIO</span>
+
+              <small>
+                Aula prática
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="photo photo-small reveal">
+
+            <div class="photo-placeholder">
+
+              <span>PROJETO</span>
+
+              <small>
+                Apresentação
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="gallery-note reveal">
+
+            <span>“</span>
+
+            <p>
+              Cada projeto começa com uma ideia.
+              O curso é o espaço onde aprendemos a
+              transformar essas ideias em realidade.
+            </p>
+
+            <small>
+              — TURMA DE DESENVOLVIMENTO DE SISTEMAS
+            </small>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           PROFESSORES
+      ================================================== -->
+
+      <section class="section teachers-section">
+
+        <div class="section-label reveal">
+          07 / QUEM FAZ PARTE
+        </div>
+
+        <div class="section-heading reveal">
+
+          <div>
+
+            <h2>
+              Pessoas que<br>
+              <em>ensinam e inspiram.</em>
+            </h2>
+
+          </div>
+
+          <p>
+            Espaço preparado para apresentar os professores
+            e profissionais que acompanham a formação.
+          </p>
+
+        </div>
+
+
+        <div class="teachers-grid">
+
+
+          <article class="teacher-card reveal">
+
+            <div class="teacher-photo">
+              <span>FOTO</span>
+            </div>
+
+            <div class="teacher-info">
+
+              <span>PROFESSOR(A)</span>
+
+              <h3>
+                Nome do professor
+              </h3>
+
+              <p>
+                Desenvolvimento de Sistemas
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="teacher-card reveal">
+
+            <div class="teacher-photo">
+              <span>FOTO</span>
+            </div>
+
+            <div class="teacher-info">
+
+              <span>PROFESSOR(A)</span>
+
+              <h3>
+                Nome do professor
+              </h3>
+
+              <p>
+                Área / disciplina
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="teacher-card reveal">
+
+            <div class="teacher-photo">
+              <span>FOTO</span>
+            </div>
+
+            <div class="teacher-info">
+
+              <span>PROFESSOR(A)</span>
+
+              <h3>
+                Nome do professor
+              </h3>
+
+              <p>
+                Área / disciplina
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           CAMINHOS
+      ================================================== -->
+
+      <section class="section path-section">
+
+        <div class="section-label reveal">
+          08 / CAMINHOS
+        </div>
+
+        <div class="path-wrap">
+
+
+          <div class="path-heading reveal">
+
+            <h2>
+              Onde a tecnologia<br>
+              <em>pode levar?</em>
+            </h2>
+
+            <p>
+              A formação técnica pode servir como base para
+              diferentes áreas e também para continuar estudando.
+            </p>
+
+          </div>
+
+
+          <div class="paths">
+
+
+            <div class="path reveal">
+
+              <span>01</span>
+
+              <strong>
+                Desenvolvimento Web
+              </strong>
+
+              <small>
+                Sites e aplicações
+              </small>
+
+            </div>
+
+
+            <div class="path reveal">
+
+              <span>02</span>
+
+              <strong>
+                Aplicações
+              </strong>
+
+              <small>
+                Sistemas e soluções digitais
+              </small>
+
+            </div>
+
+
+            <div class="path reveal">
+
+              <span>03</span>
+
+              <strong>
+                Banco de Dados
+              </strong>
+
+              <small>
+                Dados e informação
+              </small>
+
+            </div>
+
+
+            <div class="path reveal">
+
+              <span>04</span>
+
+              <strong>
+                Empreendedorismo
+              </strong>
+
+              <small>
+                Produtos e projetos próprios
+              </small>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           CTA
+      ================================================== -->
+
+      <section class="cta" id="contato">
+
+        <div class="cta-glow"></div>
+
+        <div class="reveal">
+
+          <div class="eyebrow">
+
+            <span></span>
+
+            CEEP LARANJEIRAS DO SUL
+
+          </div>
+
+          <h2>
+            O próximo projeto<br>
+            <em>pode ser seu.</em>
+          </h2>
+
+          <p>
+            Quer conhecer o Curso Técnico em Desenvolvimento de Sistemas?
+          </p>
+
+
+          <div class="hero-actions">
+
+            <a
+              class="btn btn-primary"
+              href="#"
+              data-toast="Adicione aqui o link oficial do CEEP.">
+
+              Conheça o CEEP <span>↗</span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <!-- =================================================
+         FOOTER
+    ================================================== -->
+
+    <footer class="footer">
+
+      <div class="brand">
+
+        <span class="brand-mark">
+
+          <img
+            src="unnamed.jpg"
+            alt="Desenvolvimento de Sistemas">
+
+        </span>
+
+        <span>
+
+          <strong>CEEP</strong>
+
+          <small>
+            DESENVOLVIMENTO DE SISTEMAS
+          </small>
+
+        </span>
+
+      </div>
+
+
+      <div class="footer-center">
+
+        <p>
+          © <span id="year"></span> • Desenvolvimento de Sistemas
+        </p>
+
+        <button
+          class="terminal-button"
+          id="terminalButton">
+
+          <span>⌘</span>
+          TERMINAL
+
+        </button>
+
+      </div>
+
+
+      <a href="#inicio">
+        Voltar ao topo ↑
+      </a>
+
+    </footer>
+
+
+    <!-- =================================================
+         TERMINAL
+    ================================================== -->
+
+    <div
+      class="terminal-overlay"
+      id="terminalOverlay"
+      aria-hidden="true">
+
+      <div class="terminal-window">
+
+
+        <div class="terminal-header">
+
+          <div class="dots">
+
+            <i></i>
+            <i></i>
+            <i></i>
+
+          </div>
+
+          <span>
+            CEEP@DESENVOLVIMENTO:~
+          </span>
+
+          <button
+            id="closeTerminal"
+            aria-label="Fechar terminal">
+
+            ×
+
+          </button>
+
+        </div>
+
+
+        <div class="terminal-body">
+
+          <div
+            class="terminal-output"
+            id="terminalOutput">
+
+            <p>
+              CEEP Development Terminal v1.0
+            </p>
+
+            <p>
+              Digite
+              <span class="terminal-green">
+                help
+              </span>
+              para ver os comandos disponíveis.
+            </p>
+
+          </div>
+
+
+          <div class="terminal-input-line">
+
+            <span>
+              CEEP@DS:~$
+            </span>
+
+            <input
+              type="text"
+              id="terminalInput"
+              autocomplete="off"
+              spellcheck="false"
+              aria-label="Comando do terminal">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- =================================================
+         TOAST
+    ================================================== -->
+
+    <div
+      class="toast"
+      id="toast"
+      role="status"
+      aria-live="polite">
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
